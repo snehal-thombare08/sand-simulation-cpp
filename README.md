@@ -20,6 +20,9 @@ Real-time falling sand simulation with multiple materials.
 | Right Click | Erase |
 | C | Clear all |
 
+## screenshot
+https://raw.githubusercontent.com/snehal-thombare08/sand-simulation-cpp/b0e89d8335f1ef0df1f3fa2488e27ca9bd12cfdf/Screenshot%202026-06-16%20174542.png
+
 ## 🛠️ Build
 ```bash
 mkdir build && cd build
