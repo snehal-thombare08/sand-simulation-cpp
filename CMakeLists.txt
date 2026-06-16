@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.16)
+project(SandSim)
+set(CMAKE_CXX_STANDARD 17)
+find_package(SFML COMPONENTS Graphics Window System CONFIG REQUIRED)
+add_executable(SandSim src/main.cpp)
+target_link_libraries(SandSim PRIVATE SFML::Graphics SFML::Window SFML::System)
